@@ -1,6 +1,7 @@
-<script>
-	import ImgHero from '../img/intro1.webp';
+<script lang="ts">
+import ImgHero from '../img/upload/2020_08.jpg';
 </script>
+
 
 <article
 	class="relative overflow-hidden bg-cover bg-no-repeat"
@@ -16,13 +17,13 @@
 	>
 		<div class="flex h-full items-center justify-center">
 			<div class="px-6 text-center text-white md:px-12">
-				<h1 class="mb-6 text-5xl font-bold">Heading</h1>
-				<h3 class="mb-8 text-3xl font-bold">Subeading</h3>
+				<h1 class="ml2 mb-6 text-5xl font-bold">LETNÍ TÁBOR</h1>
+				<h3 class="mb-8 text-3xl font-bold">S TATÍNKY</h3>
 			</div>
 		</div>
 	</section>
 </article>
 
 <style>
-    
+	
 </style>

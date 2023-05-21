@@ -27,7 +27,7 @@
 </script>
 
 <!--mx-auto container--> 
-<article class="xl:px-20 lg:px-12 sm:px-6 px-4 px-4 py-12 bg-gray-50">
+<article class="xl:px-20 lg:px-12 sm:px-6 px-4 py-12 bg-gray-50">
 	<div class="flex flex-col items-center justify-center">
 		<section>
 			<!-- svelte-ignore a11y-missing-attribute -->
