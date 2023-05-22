@@ -18,6 +18,10 @@
 </main>
 
 <footer>
-    <PreFooter />
     <Footer />
+    <PreFooter />
 </footer>
+
+<style>
+     
+</style>

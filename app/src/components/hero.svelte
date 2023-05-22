@@ -11,6 +11,8 @@ import ImgHero from '../img/upload/2020_08.jpg';
       height: 400px;
     "
 >
+	
+
 	<section
 		class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
 		style="background-color: rgba(0, 0, 0, 0.65)"

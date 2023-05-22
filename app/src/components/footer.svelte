@@ -1,5 +1,6 @@
 <script>
 	import ImgText from '../img/text1.png';
+
 	import { onMount } from 'svelte';
 
 	const facebook = "https://www.facebook.com/alvarezhradek";
@@ -135,5 +136,5 @@
 </article>
 
 <style>
-    
+
 </style>
