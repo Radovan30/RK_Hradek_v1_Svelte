@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 12,
+    "debug.console.fontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
+    "tailwindCSS.rootFontSize": 14,
+    "workbench.sash.size": 4,
+    "editor.suggestFontSize": 10
+}

@@ -1,33 +1,27 @@
-<script>
-import Nav from "../components/nav.svelte";
-import Footer from "../components/footer.svelte";
-
+<script context="module">
+    import Nav from '../components/nav.svelte'
+    import Hero from '../components/hero.svelte'
+    import Card from '../components/card.svelte'
+    import Gallery from '../components/gallery.svelte'
+    import PreFooter from '../components/pre-footer.svelte'
+    import Footer from '../components/footer.svelte'
 </script>
-
-<svelte:head>
-    <title>RK Hrádek</title>
-</svelte:head>
-
 
 <header>
     <Nav />
+    <Hero />
 </header>
 
-
-
-<main class="bg-orange-400 max-w-[97%] mx-auto">
-    <h2>???</h2>
-    <section class="">
-
-
-    </section>
-
+<main>
+    <Card/>
+    <Gallery/>
 </main>
 
-
-
-
 <footer>
- <Footer />
-
+    <Footer />
+    <PreFooter />
 </footer>
+
+<style>
+     
+</style>
