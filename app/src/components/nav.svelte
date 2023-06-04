@@ -1,6 +1,7 @@
 <script>
 	import Logo from '../img/logo_rkhradek.webp';
 	import Hamburger from './navBurger.svelte';
+	import Contact from './contact.svelte';
 </script>
 
 <nav class="bg-gray-50">
@@ -17,29 +18,23 @@
 			>
 				<li>
 					<a
-						href="/"
+						href="#onas"
 						class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100
 						hover:text-amber-500
 						md:hover:bg-transparent md:border-0 md:hover:text-amber-500 md:p-0 md:hover:border-t-2 border-gray-500"
 						>O nás</a
 					>
 				</li>
-
 				<li>
 					<a
-						href="/"
+						href="#gallery"
 						class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100
 						hover:text-amber-500 md:hover:bg-transparent md:border-0 md:hover:text-amber-500 md:p-0 md:hover:border-t-2 border-gray-500"
 						>Alvaréz</a
 					>
 				</li>
 				<li>
-					<a
-						href="/"
-						class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100
-						hover:text-amber-500 md:hover:bg-transparent md:border-0 md:hover:text-amber-500 md:p-0 md:hover:border-t-2 border-gray-500"
-						>Kontakt</a
-					>
+					<Contact />
 				</li>
 			</ul>
 		</div>

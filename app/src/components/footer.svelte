@@ -1,11 +1,13 @@
 <script>
 	import ImgText from '../img/text1.png';
-
 	import { onMount } from 'svelte';
+	import Contact from './contact.svelte';
 
-	const facebook = "https://www.facebook.com/alvarezhradek";
+	export let showModal = false;
+
+	const facebook = 'https://www.facebook.com/alvarezhradek';
 	const telephone = +420724096832;
-	const email = "dandysz@seznam.cz";
+	const email = 'dandysz@seznam.cz';
 
 	let now = new Date(),
 		month,
@@ -27,33 +29,30 @@
 	});
 </script>
 
-<!--mx-auto container--> 
-<article class="xl:px-20 lg:px-12 sm:px-6 px-4 py-12 bg-gray-50">
+<!--mx-auto container-->
+<article id="contact" class="xl:px-20 lg:px-12 sm:px-6 px-4 py-12 bg-gray-50">
 	<div class="flex flex-col items-center justify-center">
 		<section>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<img
-				src={ImgText}
-				class="text-gray-800 dark:text-white hover:text-gray-500"
-				width="180"
-			/>
+			<img src={ImgText} class="text-gray-800 dark:text-white hover:text-gray-500" width="180" />
 		</section>
 		<section class="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-8">
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href="javascript:void(0)"
+				href="#onas"
 				class="focus:underline focus:outline-none hover:text-amber-500 text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
 				>O nás</a
 			>
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href="javascript:void(0)"
+				href="#gallery"
 				class="focus:underline focus:outline-none hover:text-amber-500 text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
 				>Alvaréz</a
 			>
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href="javascript:void(0)"
+				on:click={() => (showModal = true)}
+				href="#kontakt"
 				class="focus:underline focus:outline-none hover:text-amber-500 text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
 				>Kontakt</a
 			>
@@ -61,7 +60,7 @@
 		<section class="flex items-center gap-x-8 mt-6">
 			<a
 				aria-label="facebook"
-				href="{facebook}"
+				href={facebook}
 				class="focus:ring-2 focus:ring-offset-2 focus:ring-sky-600 focus:outline-none rounded-full"
 			>
 				<svg
@@ -103,7 +102,7 @@
 					/>
 				</svg>
 			</a>
-            <a
+			<a
 				href="mailto: {email}"
 				aria-label="mailto"
 				class="focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 focus:outline-none rounded-full"
@@ -136,5 +135,4 @@
 </article>
 
 <style>
-
 </style>

@@ -6,7 +6,7 @@
 	import Img3 from '../img/upload/2021_03.webp';
 </script>
 
-<article class="bg-no-repeat bg-center grid justify-items-center text-justify pb-5">
+<article id="onas" class="bg-no-repeat bg-center grid justify-items-center text-justify pb-5">
 	<section class="mt-10 z-10">
 		<a
 			href={Img1}

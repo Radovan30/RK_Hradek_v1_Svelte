@@ -16,7 +16,7 @@
 	>
 		<div class="flex h-full items-center justify-center">
 			<div class="px-6 text-center md:px-12">
-				<h1 id="hero" class="mt-10 text-5xl font-bold">LETNÍ TÁBOR</h1>
+				<h1 id="hero-blink" class="mt-10 text-5xl font-bold">LETNÍ TÁBOR</h1>
 				<h3 class="mb-6 text-3xl font-bold">S TATÍNKY</h3>
 			</div>
 		</div>
@@ -39,13 +39,15 @@
 		letter-spacing: 5px;
 	}
 
-	#hero {
-		border-right: 2px solid rgba(255, 255, 255, 0.65);
-		white-space: nowrap;
-		overflow: hidden;
-		transform: translateY(-50%);
-	}
+		#hero-blink {
+			
+			white-space: nowrap;
+			overflow: hidden;
+			transform: translateY(-50%);
+		}
 
+	
+		
 	@keyframes typewriter {
 		from {
 			width: 0;
@@ -63,6 +65,7 @@
 			border-right-color: transparent;
 		}
 	}
+
 
 	h3 {
 		color: rgba(255, 255, 255, 0.7);
