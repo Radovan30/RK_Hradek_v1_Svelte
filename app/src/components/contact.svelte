@@ -12,7 +12,7 @@
 	on:click={() => (showModal = true)}
 	href="/"
 	class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100
-						hover:text-amber-500 md:hover:bg-transparent md:border-0 md:hover:text-amber-500 md:p-0 md:hover:border-t-2 border-gray-500"
+						hover:text-amber-500 md:hover:bg-transparent md:border-0 md:hover:text-amber-500 md:p-0"
 	>Kontakt</a
 >
 
@@ -51,7 +51,7 @@
 
 			<input
 				type="button"
-				class="rounded-md bg-gray-50 border border-gray-300  hover:bg-sky-600 hover:text-white p-1"
+				class="rounded-md bg-gray-50 border border-gray-300  hover:bg-sky-600 hover:text-white p-1 focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:outline-none rounded-full"
 				value="Odeslat"
 			/>
 		</label>
@@ -62,6 +62,7 @@
 			<a
 				aria-label="facebook"
 				href={facebook}
+				class="focus:ring-2 focus:ring-offset-2 focus:ring-sky-600 focus:outline-none rounded-full"
 			>
 				<svg
 					class="fill-current text-gray-500 dark:text-white hover:text-sky-700"
@@ -82,6 +83,7 @@
 			<a
 				href="tel: {telephone}"
 				aria-label="phone"
+				class="focus:ring-2 focus:ring-offset-2 focus:ring-teal-600 focus:outline-none rounded-full"
 			>
 				<svg
 					class="fill-current text-gray-500 dark:text-white hover:text-teal-700"
@@ -104,6 +106,7 @@
 			<a
 				href="mailto: {email}"
 				aria-label="mailto"
+				class="focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 focus:outline-none rounded-full"
 			>
 				<svg
 					class="fill-current text-gray-500 dark:text-white hover:text-amber-500"

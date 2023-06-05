@@ -7,7 +7,7 @@
 	style="
       background-position: 50%;
       background-image: url('{ImgHero}');
-      height: 400px;
+      height: 500px;
     "
 >
 	<section

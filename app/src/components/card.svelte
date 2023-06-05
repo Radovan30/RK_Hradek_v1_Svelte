@@ -9,7 +9,7 @@
 <article id="onas" class="bg-no-repeat bg-center grid justify-items-center text-justify pb-5">
 	<section class="mt-10 z-10">
 		<a
-			href={Img1}
+			href="#onas"
 			class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
 		>
 			<div class="flex flex-col justify-between p-4 leading-normal">
@@ -30,7 +30,7 @@
 	</section>
 	<section class="mt-10 z-10">
 		<a
-			href={Img2}
+			href="#onas"
 			class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
 		>
 			<div class="flex flex-col justify-between p-4 leading-normal">
@@ -52,7 +52,7 @@
 		<section />
 		<section class="mt-10 z-10">
 			<a
-				href={Img3}
+				href="#onas"
 				class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
 			>
 				<div class="flex flex-col justify-between p-4 leading-normal">
@@ -75,6 +75,7 @@
 		</section>
 	</section>
 </article>
+
 
 <style>
 	article {

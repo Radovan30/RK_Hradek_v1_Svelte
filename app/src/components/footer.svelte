@@ -50,12 +50,8 @@
 				>Alvaréz</a
 			>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a
-				on:click={() => (showModal = true)}
-				href="#kontakt"
-				class="focus:underline focus:outline-none hover:text-amber-500 text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
-				>Kontakt</a
-			>
+			<Contact/>
+		
 		</section>
 		<section class="flex items-center gap-x-8 mt-6">
 			<a
